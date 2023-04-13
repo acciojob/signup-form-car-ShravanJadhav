@@ -11,6 +11,45 @@
     <script type="text/javascript" src="./script.js">
 </script>
 
+	<form action="" method="POST">
+		<label for="name">Name</label>
+		<input type = "text" for="name" name="name" id="name" placeholder="Name" required>
+
+		<label for="email">Email</label>
+		<input type = "email" for="email" name="email" id="email" placeholder="Email" required>
+
+		<label for="gender">Gender</label>
+		<label for="gender_m">Male</label>
+		<input type="radio" name="gender" for="gender" id="gender_m" required>
+		<label for="gender_f">Female</label>
+		<input type="radio" name="gender" for="gender" id="gender_f" required>
+	
+		<label for="cars"></label>
+		<select for="cars" id="cars" required>
+		<option for="cars" id="cars" disabled selected>--Please choose an option--</option>
+		<option for="cars" id="cars">BMW</option>
+		<option for="cars" id="cars">Audi</option>
+		<option for="cars" id="cars">Mercedez</option>
+		</select>
+
+		<label for="age">Age</label>
+		<input type = "number" for="age" name="age" id="age" placeholder="Age" required>
+
+		<label for="dob">DOB</label>
+		<input type = "date" for="dob" name="dob" id="dob" required>
+
+		<label for="tel">Phone Number</label>
+		<input type = "tel" for="tel" name="tel" placeholder = "xxx-xxx-xxxx"id="tel">
+
+		<label for="password">Password</label>
+		<input type = "password" for="password" name="password" placeholder="Password" id="password" required>
+
+		<label for="checkbox">I agree to the TOS</label>
+		<input type = "checkbox" for="checkbox" name="checkbox" id="checkbox" required>
+
+		<button type="submit">Submit</button>
+	</form>
+
 </body>
 
 </html>
